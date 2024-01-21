@@ -43,7 +43,7 @@ void f_push(stack_t **head, unsigned int counter)
 	n = atoi(bus.arg);
 
 	if (bus.lifi == 0)
-		add_node(head, n); /* Updated function name to add_node */
+		addnode(head, n); /* Updated function name to add_node */
 	else
-		add_queue(head, n); /* Updated function name to add_queue */
+		addqueue(head, n); /* Updated function name to add_queue */
 }
